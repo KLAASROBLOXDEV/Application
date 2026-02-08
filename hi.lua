@@ -1,16 +1,16 @@
 local RunService = game:GetService("RunService")
 local Lighting = game.Lighting
 
-local DayLengthMinutes = 0.5
-local CurrentTime = 6
-local TimeIncrement = 0
+local DayLengthMinutes = 0.5 // Set the Day Lengt in minuts
+local CurrentTime = 6 // time where it starts in game
+local TimeIncrement = 0 // Incremet of the time
 
-local WeatherTypes = {"Clear", "Sunny", "Rain", "Cloudy"}
-local CurrentWeather = "Sunny"
-local WeatherDuration = 1
-local WeatherTimer = 0
+local WeatherTypes = {"Clear", "Sunny", "Rain", "Cloudy"} // wether names
+local CurrentWeather = "Sunny" // current set weather
+local WeatherDuration = 1 // how long it lasts in seconds
+local WeatherTimer = 0 // timer of the weather
 
-local IsDay = true 
+local IsDay = true // 
 
 local RainPart = workspace:WaitForChild("RainEmitterPart")
 local RainEmitter = RainPart:WaitForChild("RainEmitter")
