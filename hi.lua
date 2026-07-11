@@ -1,3 +1,7 @@
+-- Connected Discord-GitHub
+-- Roblox users: KlaasVHS, KlaasVHSDEV
+-- Discord user: hond0967
+
 -- Get Roblox services used by this server script
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
